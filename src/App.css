@@ -3,6 +3,8 @@
   /* font-family: 'Nanum Gothic', sans-serif; */
   font-family: 'Nanum Myeongjo', serif;
 font-weight: 700;
+overflow-x: auto;
+  white-space: nowrap;
 
 }
 .bg{

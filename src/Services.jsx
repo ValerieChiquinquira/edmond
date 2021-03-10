@@ -13,6 +13,8 @@ const Services = () => {
                 <div> 
                     <h2> Interior Services</h2> 
                     <ul>
+                        <li>Heating and Cooling</li>
+                        <li>Ducts and Vents</li>
                         <li>Surface Preperation and Painting</li>
                         <li>Carpentary Finishing</li>
                         <li>Drywall Repair</li>

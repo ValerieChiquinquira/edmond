@@ -2,9 +2,12 @@
   /* font-family: 'Crimson Text', serif; */
   /* font-family: 'Nanum Gothic', sans-serif; */
   font-family: 'Nanum Myeongjo', serif;
-font-weight: 700;
-overflow-x: auto;
-  white-space: nowrap;
+font-weight: 600;
+/* overflow-x: auto;
+  white-space: nowrap; */
+  
+  box-sizing: border-box ;
+  overflow-x: hidden;
 
 }
 .bg{
@@ -14,40 +17,72 @@ overflow-x: auto;
     min-height: 100vh;
     background-attachment: fixed;
     background-size: cover;
+    object-fit: cover;
 
 }
 
 .eeee{
   font-family: 'Great Vibes', cursive;
-  font-size: 3rem;
-  
+  font-size: 10vh;
   position: absolute;
-  
+  font-weight: lighter;
+ 
+  width: 10vw;
 }
 
 .ee{
   font-family: 'Great Vibes', cursive;
-  font-size: 3rem;  
+  font-size: 10vh;
   z-index: 50;
-  margin-left: .45rem;
-  margin-top: 2rem;
+  margin-left: .45vw;
+  margin-top: 5vh;
   position: absolute;
+  font-weight: lighter;
+  width: 10vw;
 }
 
 .e{
   font-family: 'Great Vibes', cursive;
-  font-size: 3rem;
+  font-size: 15vh;
+  font-weight: lighter;
+  padding: .5vh .5vw;
+}
+.big-link:link {
+  color:black;
+}
+
+/* visited link */
+.big-link:visited {
+  color: gray;
+}
+
+/* mouse over link */
+.big-link:hover {
+  color: white;
+  font-size:6vh;
+}
+
+/* selected link */
+.big-link:active {
+  color: black;
 }
 
 .header{
   display: flex;
   justify-content: space-between;
   height: 10vh;
-  padding: 1rem;
-  background-color: rgb(241, 238, 238, .5); 
+  padding: 1vw 1vh;
+  background-color: rgb(241, 238, 238, .5);
+  box-sizing: border-box; 
+  overflow-x: hidden;
+  overflow-y: hidden;
+
 }
 .logo{
   height: 20vh;
+  width: 30vw;
+  padding: 1vw;
+
 }
 
 .nav-l{
@@ -55,7 +90,7 @@ overflow-x: auto;
   justify-content: space-around;
   flex-direction: row;
   align-items:flex-end;
-  width: 20vw;
+  width: 50vw;
   align-content: center;
   
 }
@@ -67,25 +102,30 @@ overflow-x: auto;
   color: black;
   text-decoration: none;
   list-style: none;
+  
 }
 
 .main-logo{
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 40vh;
+  font-size: 10vh;
+  padding: 1vh;
+  font-weight: lighter;
   
-  height: 60vh;
-  font-size: 5rem;
-  padding: 1rem;
 }
 
-.main-logo .e{
-font-size: 7rem;
+.subtitle{
+  text-align: center;
+  width: 100vw;
+  font-size: 4vh;
 }
-
-
-
 /* about us */
+
+h1{
+  text-align: center;
+}
 .about{
   display: flex;
   flex-direction: column;
@@ -94,7 +134,7 @@ font-size: 7rem;
   align-items: center;
   padding: 1rem;
   background-color: rgb(255, 255, 255, .5);
-  font-size: 1.25rem;
+  font-size: 2.5vh;
 }
 .about-us{
 display: flex;
@@ -107,19 +147,19 @@ background-color: rgb(255, 255, 255, .65);
 
 .mission-value{
   display: flex;
-  padding: 1rem;
+  padding: 1vw 1vh;
   
 }
 
 .mission{
 width: 60ch;
-padding: 1rem;
+padding: 1vw;
 background-color: rgb(255, 255, 255, .65); 
 }
 
 .value{
   width: 60ch;
-  padding: 1rem;
+  padding: 1vw;
   background-color: rgb(255, 255, 255, .65); 
 }
 /* services */
@@ -131,14 +171,19 @@ align-items: center;
 background-color: rgb(255, 255, 255, .5); 
 
 }
+h2{
+  height:5vh;
+}
 .services-list{
  
 display: flex;
 justify-content: space-around;
 width: 100vw;
-padding: 1rem;
+
+padding: 1vw;
 background-color: rgb(255, 255, 255, .75); 
 line-height: 160%;
+font-size: 3vh;
 }
 
 .contacts{
@@ -146,6 +191,7 @@ line-height: 160%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: visible;
 }
 
 .contact-methods{
@@ -153,34 +199,33 @@ line-height: 160%;
   justify-content: space-around;
   width: 100vw;
   background-color: rgb(255, 255, 255, .75); 
- 
+  overflow: visible;
 }
 
 .contact{
   line-height: 150%;
-  padding: 1rem;
+  padding: 3vh;
   display: flex;
   flex-direction: column;
-  font-size: 1rem;
+  font-size: 3vh;
  
-  height: 20vh;
+  height: 40vh;
   width: 45ch;
   align-items: center;
   justify-content: center;
-
+  overflow: visible;
 }
 .contact-line{
   line-height: 150%;
-  padding: 1rem;
+  padding: 1vw;
   display: flex;
   flex-direction: column;
-  font-size: 1rem;
+  font-size: 3vh;
   background-color: rgb(255, 255, 255, .75); 
-  height: 10vh;
+  height: 20vh;
 width: 100vw;
   align-items: center;
   justify-content: center;
-
 }
 .center-footer{
   display: flex;
@@ -188,19 +233,24 @@ width: 100vw;
   justify-content: center;
   align-items: center;
 
+
 }
 .center-footer-div{
   display: flex;
 
 }
 .footer{
- 
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
   background-color: rgb(241, 238, 238, .75); 
+  padding-left: 1vw;
+  padding-right: 2vw;
+  font-size: 2vh;
+  
+
   
 }
 .service-footer{
-  font-size: 1.5rem;
+  font-size: 3vh;
+  
 }

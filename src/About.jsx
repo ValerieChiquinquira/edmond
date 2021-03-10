@@ -8,7 +8,7 @@ const About = () => {
         <div className="bg"> 
             <Header/>
         <div className="content"> 
-            
+            <h1> About Us</h1>
             <content className="about">
                 <div className="about-us"> 
                 <p>Edmond Enterprises, LLC is a family-owned and opereated small business serving South Florida for 

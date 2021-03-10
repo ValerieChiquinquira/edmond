@@ -10,10 +10,11 @@ const Home = () => {
         <content>   
             <div className="main-logo"> 
                 <span className="e">E</span>dmond  <span className="e">E</span>nterprises
+                
             </div>
-        
+        <div className="subtitle">Luxury Home Remodeling, Repair, and Maintenance</div>
        </content>
-            <Footer/>
+         
        </div>
     )
 }

@@ -141,27 +141,11 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 padding: 1rem;
-width: 60ch;
+width: 70ch;
 background-color: rgb(255, 255, 255, .65); 
 }
 
-.mission-value{
-  display: flex;
-  padding: 1vw 1vh;
-  
-}
 
-.mission{
-width: 60ch;
-padding: 1vw;
-background-color: rgb(255, 255, 255, .65); 
-}
-
-.value{
-  width: 60ch;
-  padding: 1vw;
-  background-color: rgb(255, 255, 255, .65); 
-}
 /* services */
 .services{
 display: flex;

@@ -8,10 +8,10 @@ const Services = () => {
         <div className="bg"> 
         <Header/>
         <div className="services" >
-            <h1> Top Quality Services We Offer</h1>
+            <h1> Top Quality Home Repair & Remodeling Services We Offer</h1>
             <div className="services-list"> 
                 <div> 
-                    <h2> Interior Services</h2> 
+                    <h2> Interior Home Services</h2> 
                     <ul>
                         <li>Heating and Cooling</li>
                         <li>Ducts and Vents</li>
@@ -27,7 +27,7 @@ const Services = () => {
                     </ul>
                 </div>
                 <div>
-                    <h2> Exterior Services</h2>
+                    <h2> Exterior Home Services</h2>
                     <ul>
                         <li>Tennis Court Maintenance</li>
                         <li>Pressure Washing</li>

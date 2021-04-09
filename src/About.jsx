@@ -11,7 +11,7 @@ const About = () => {
             <h1> About Us</h1>
             <content className="about">
                 <div className="about-us"> 
-                <p>Edmond Enterprises, LLC is a family-owned and opereated small business serving South Florida for 
+                <p>Edmond Enterprises, LLC is a family-owned and operated small business that has been serving South Florida for 
                 more than a decade. We started our business when we noticed there was a demand for affordable and 
                 trust-worthy home maintenance services. Since our creation, we've been able to expand our services to include home 
                 maintenance, home repair, and remodeling services.</p>
@@ -19,8 +19,7 @@ const About = () => {
                 <p> We have certified and experienced technicians 
                 well-versed in all aspects of home maintenance and repair. </p>
             
-                </div>
-                <div className="mission-value">
+             
                     <div className="mission"> 
                     Our mission is to provide those in need of reliable and affordable services to those in need. We believe 
                     every one should be able to enjoy their home without worrying about its structural integrity or aesthetics. 

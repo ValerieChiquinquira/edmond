@@ -1,5 +1,6 @@
 import React from "react";
 import { Link} from "react-router-dom";
+import Logo from "./Logo";
 
 const Header = () => {
     return (
@@ -7,6 +8,9 @@ const Header = () => {
             <div className="logo">
               <Link to="/" className="big-link"> <span className="eeee">E</span>
                 <span className="ee">E</span></Link>  
+            </div>
+            <div>
+                 <Logo/>
             </div>
             <div>
                 <nav className="nav-l">

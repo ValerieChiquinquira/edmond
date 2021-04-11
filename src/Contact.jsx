@@ -1,13 +1,19 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
+import call from "./Images/call.svg";
+import email from "./Images/email.svg";
+import google from "./Images/google.svg";
+import sms from "./Images/sms.svg";
+import yelp from "./Images/yelp.svg";
+
 
 
 const Contact= () => {
     return (
         <div className="bg"> 
             <Header/>
-                <content className="contacts">
+                <content className="contacts"> 
                     <h1> Contact Us</h1>
                     <div className="contact-methods">
                         <div className="contact"> Call Us
@@ -24,6 +30,12 @@ const Contact= () => {
                         
                         </div>
                             
+                    </div>
+                    <div className="horizontal-contact">
+
+                    <span > <a href="tel:4044242895"><img className="horizontal-cards-child-icon" src={call} alt="phone-icon" /></a></span>
+                    <span > <a href="tel:4044242895"><img className="horizontal-cards-child-icon" src={sms} alt="text-icon" /></a></span>
+                    <span > <a href="calvinedmond2012@yahoo.com"><img className="horizontal-cards-child-icon" src={email} alt="email-icon" /></a></span>
                     </div>
                     <div className="contact-line"> 
                         Get in touch with us and we'll be sure to answer any questions you may have.

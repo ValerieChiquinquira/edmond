@@ -21,12 +21,14 @@ const About = () => {
             
              
                     <div className="mission"> 
-                    Our mission is to provide those in need of reliable and affordable services to those in need. We believe 
-                    every one should be able to enjoy their home without worrying about its structural integrity or aesthetics. 
-                    We spent so much time in our homes that we should love it. </div>
+                    <p> Our mission is to provide reliable and affordable services to those in need. We believe 
+                    every one should be able to enjoy their home without worrying about its structural integrity 
+                    or aesthetics. </p>
+                    <p> We spend so much time in our homes that we should love it. </p></div>
                     <div className="value"> 
-                    We value trust and transperancy so we make it our goal to ensure every client we meet trusts our work and fully understands
-                    what our plans consists of. With these two elements, we can be sure that each client relationship consists of honesty and long-lasting satisfaction.
+                    <p> We value trust and transperancy so we make it our goal to ensure every client we meet 
+                        trusts our work and 
+                    fully understands what the work entails.</p>
                     </div>
                 </div>
 

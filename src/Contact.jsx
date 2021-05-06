@@ -33,9 +33,9 @@ const Contact= () => {
                     </div>
                     <div className="horizontal-contact">
 
-                    <span > <a href="tel:4044242895"><img className="horizontal-cards-child-icon" src={call} alt="phone-icon" /></a></span>
-                    <span > <a href="tel:4044242895"><img className="horizontal-cards-child-icon" src={sms} alt="text-icon" /></a></span>
-                    <span > <a href="calvinedmond2012@yahoo.com"><img className="horizontal-cards-child-icon" src={email} alt="email-icon" /></a></span>
+                    <span className="col"> <a href="tel:4044242895"><img className="horizontal-cards-child-icon" src={call} alt="phone-icon" /></a> Call</span>
+                    <span className="col"> <a href="tel:4044242895"><img className="horizontal-cards-child-icon" src={sms} alt="text-icon" /></a> Text</span>
+                    <span className="col"> <a href="calvinedmond2012@yahoo.com"><img className="horizontal-cards-child-icon" src={email} alt="email-icon" /></a>Email</span>
                     </div>
                     <div className="contact-line"> 
                         Get in touch with us and we'll be sure to answer any questions you may have.

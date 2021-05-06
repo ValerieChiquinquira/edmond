@@ -11,7 +11,7 @@ const Services = () => {
             <h1> Top Quality Home Repair & Remodeling Services We Offer</h1>
             <div className="services-list"> 
                 <div> 
-                    <h2> Interior Home Services</h2> 
+                    <h2 className="space-btm"> Interior Home Services</h2> 
                     <ul>
                         <li>Heating and Cooling</li>
                         <li>Ducts and Vents</li>
@@ -25,9 +25,10 @@ const Services = () => {
                         <li>Bathroom Remodeling</li>
                         <li>Kitchen Remodeling</li>
                     </ul>
+                    {/* <span className="col"><img className="horizontal-cards-child-icon" src={BA} alt="kitchen" /></span> */}
                 </div>
                 <div>
-                    <h2> Exterior Home Services</h2>
+                    <h2 className="space-btm"> Exterior Home Services</h2>
                     <ul>
                         <li>Tennis Court Maintenance</li>
                         <li>Pressure Washing</li>
@@ -38,6 +39,7 @@ const Services = () => {
                         <li> Lawn Maintenance</li>
                         <li> Shingle Replacements</li>
                     </ul>
+                    {/* <span className="col"><img className="horizontal-cards-child-icon" src={BA2} alt="kitchen" /></span> */}
                 </div>
             </div>
             <div className="services-not">

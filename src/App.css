@@ -1,17 +1,12 @@
 *{
-
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box ;
   /* background-color: rgb(235, 230, 230); */
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
-q{
-  font-family: 'Catamaran', sans-serif;
-}
 
 div{
   overflow: hidden;
@@ -21,7 +16,6 @@ div{
   font-size: 10vh;
   position: absolute;
   font-weight: lighter;
- 
   width: 10vw;
 }
 
@@ -73,7 +67,7 @@ div{
   width: 100vw;
  
   align-items: center;
- border-bottom: solid 2px rgb(8, 8, 58);
+
 
 }
 .logo{
@@ -116,7 +110,7 @@ div{
   flex-direction:column;
   justify-content: center;
   align-items: center;
-  height: 40vh;
+  height: 35vh;
   font-size: 10vh;
   /* padding: 1vh; */
   font-weight: lighter;
@@ -130,7 +124,7 @@ text-align: center;
 position: relative;
   width: 100vw;
   font-size: 4vh;
-  padding-bottom: 2vh;
+  padding: 2vh;
  }
 /* about us */
 
@@ -138,7 +132,12 @@ position: relative;
   text-align: center;
   font-size: 60%;
   font-weight: lighter;
+  border-bottom: solid 2px rgb(8, 8, 58);
 }
+h1{
+  text-align: center;
+}
+
 .about{
   display: flex;
   flex-direction: column;
@@ -165,12 +164,20 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 align-items: center;
+}
+.services-not{
 
+text-align: center;
+padding-bottom: 4rem;
+}
 
+p{
+  padding-bottom: 2rem;
 }
 h2{
   height:5vh;
   font-weight: lighter;
+  padding: 2rem;
 }
 .services-list{
 display: flex;
@@ -368,4 +375,69 @@ align-items: center;
 height: 55vh;
 
 font-size: 4vh;
+}
+
+.horizontal-contact{
+  height: 30vh;
+  
+  display:flex;
+  justify-content: space-around;
+}
+
+.col{
+  
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  font-weight: bold;
+}
+
+.col:link {
+  color:black;
+}
+
+/* visited link */
+.col:visited {
+  color: gray;
+}
+
+/* mouse over link */
+.col:hover {
+  color: rgb(163, 163, 230);
+  font-size:6vh;
+  border: 2px solid rgb(8, 8, 58);
+  border-radius: 15%;
+}
+
+/* selected link */
+.col:active {
+  color: black;
+}
+
+
+/* gallery */
+
+.gallery{
+  display: flex;
+  /* width: 100vw; */
+  flex-flow: row wrap;
+  
+ 
+  padding: 3vh;
+  align-content: space-around;
+  justify-content: space-evenly;
+}
+
+.img{
+  object-fit: cover;
+  width: 50%;
+  height: 50%;
+  padding: 3vh;
+}
+
+.space-btm{
+  padding: 4rem;
 }

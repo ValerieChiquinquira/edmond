@@ -5,6 +5,8 @@
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: sticky;
+  position: -webkit-sticky;
 }
 
 
@@ -188,7 +190,6 @@ padding: 1vw;
 line-height: 160%;
 font-size: 3vh;
 }
-
 .contacts{
   display: flex;
   flex-direction: column;
